@@ -6,10 +6,14 @@ html, body {
 /* PAGE HEADER */
 section.window_header {
     height: 56px;
-    box-sizing: border-box;
+    width: 100%;
     font-size: 1.5em;
     padding: 15.5px;
+    box-sizing: border-box;
     background: silver;
     vertical-align: middle;
     line-height: 100%;
+    position: fixed;
 }
+
+
