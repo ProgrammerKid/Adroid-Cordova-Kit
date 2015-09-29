@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 html, body {
     margin: 0;
     padding: 0;
@@ -16,4 +22,50 @@ section.window_header {
     position: fixed;
 }
 
+.window_header_spacer {
+    height: 56px;
+}
 
+/* WINDOW BODY */
+section.window_body {
+    padding: 10px;
+}
+
+/* SECTION TITLE */
+section.section_title {
+    font-size: 15px;
+    color: gray;
+    border-bottom: 2px solid gray;
+}
+
+/* SECTION ITEM */
+section.section_item {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+/* SECTION ITEM TITLE */
+section.section_item_name {
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+}
+
+/* SECTION ITEM DESCRIPTION */
+section.section_item_description {
+    font-size: 14px;
+    color: gray;
+}
+
+/* BUTTON LAYOUT */
+button {
+    background: lightgray;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+    outline: none;
+}
+
+button:active {
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
