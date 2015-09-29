@@ -1,2 +1,2 @@
-# Adroid-Cordova-Kit
+# Android-Cordova-Kit
 An android UI design kit
